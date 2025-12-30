@@ -1,0 +1,95 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../images/dovizkuru.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.currency-container {
+  width: 526px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #1e1e2f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.currency-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.amount,
+.result,
+.currency {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+.amount,
+.result {
+  width: 100px;
+}
+
+.currency {
+  background: #2a2a40;
+  color: white;
+}
+
+.arrow {
+  font-size: 18px;
+}
+
+.convert-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #4cafef;
+  border: none;
+  border-radius: 6px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.convert-btn:hover {
+  background: #3b9ad9;
+}
+.currency-container {
+  backdrop-filter: blur(8px);
+  background: rgba(30, 30, 47, 0.85);
+}
+
+.input-group,
+.select-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon {
+  color: #4cafef;
+  font-size: 16px;
+}
+.convert-btn svg {
+  margin-right: 6px;
+}
+
+.convert-btn:hover svg {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
